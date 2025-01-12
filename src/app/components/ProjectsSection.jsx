@@ -41,6 +41,15 @@ const projectsData = [
     gitUrl: "/",
     previewUrl: "/",
   },
+  {
+    id: 4,
+    title: "BalShiksha",
+    description: "Gamified Child Rights Application",
+    image: "/images/projects/5.png",
+    tag: ["All", "Web"],
+    gitUrl: "/https://github.com/Tarunya0704/Gamified-Child-Rights-App",
+    previewUrl: "/",
+  },
  
 ];
 
