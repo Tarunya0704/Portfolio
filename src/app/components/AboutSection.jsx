@@ -5,17 +5,15 @@ import TabButton from "./TabButton";
 
 const TAB_DATA = [
   {
-    title: "Skills",
+    title: "Hackathon Particicpated",
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>MongoDB</li>
-        <li>NextJs</li>
-        <li>JavaScript</li>
-        <li>ReactJs</li>
-        <li>Tailwind Css</li>
+        <li>SSOC'23</li>
+        <li>SIH(Smart India Hackathon'23)</li>
+        <li>SIH(Smart India Hacathon'24 )</li>
+        
+        
 
       </ul>
     ),
@@ -72,7 +70,7 @@ const AboutSection = () => {
               active={tab === "skills"}
             >
               {" "}
-              Skills{" "}
+              Hackathon Particicpated{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("education")}

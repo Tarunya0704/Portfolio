@@ -11,16 +11,16 @@ const projectsData = [
     description: "Frontend For Decentralised Autonomous Network",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Tarunya0704/DAN-Frontend-",
     previewUrl: "/",
   },
   {
     id: 2,
-    title: "Stegano",
+    title: "Cryptix",
     description: "Image Encryption Decryption Using Web3",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "/https://github.com/Tarunya0704/Cryptix",
     previewUrl: "/",
   },
   {
@@ -29,7 +29,7 @@ const projectsData = [
     description: "Api Calling List of Animes series",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "/https://github.com/Tarunya0704/AnimeLive",
     previewUrl: "/",
   },
   {

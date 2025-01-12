@@ -19,7 +19,7 @@ const SkillsSection = () => {
   const skills = [
     {
       name: "HTML5",
-      icon: "/images/html5.svg"
+      icon: "/images/skills/html.svg"
     },
     {
       name: "CSS3",
