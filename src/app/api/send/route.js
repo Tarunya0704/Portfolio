@@ -13,7 +13,7 @@ export async function POST(req, res) {
       to: [fromEmail, email],
       subject: subject,
       react: (
-        <>
+        <> 
           <h1>{subject}</h1>
           <p>Thank you for contacting us!</p>
           <p>New message submitted:</p>
