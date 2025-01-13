@@ -19,56 +19,80 @@ const SkillsSection = () => {
   const skills = [
     {
       name: "HTML5",
-      icon: "/images/skills/html.svg"
+      icon: "/images/skills/html.png"
     },
     {
       name: "CSS3",
-      icon: "/images/css3.svg"
+      icon: "/images/skills/css.png"
     },
     {
       name: "JavaScript",
-      icon: "/images/javascript.svg"
+      icon: "/images/skills/js.png"
+    },
+    {
+      name: "TypeScript",
+      icon: "/images/skills/Typescript.png"
     },
     {
       name: "React",
-      icon: "/images/react.svg"
+      icon: "/images/skills/react.png"
     },
     {
       name: "Next.js",
-      icon: "/images/nextjs.svg"
+      icon: "/images/skills/nextjs.png"
     },
     {
       name: "Tailwind CSS",
-      icon: "/images/tailwind.svg"
+      icon: "/images/skills/tailwindcss.png"
     },
     {
-        name: "Tailwind CSS",
-        icon: "/images/tailwind.svg"
+        name: "MongoDB",
+        icon: "/images/skills/mongodb.png"
       },
       {
-        name: "Tailwind CSS",
-        icon: "/images/tailwind.svg"
+        name: "Postman",
+        icon: "/images/skills/postmanAPI.png"
       },
       {
-        name: "Tailwind CSS",
-        icon: "/images/tailwind.svg"
+        name: "ExpressJS",
+        icon: "/images/skills/expressjs.png"
       },
       {
-        name: "Tailwind CSS",
-        icon: "/images/tailwind.svg"
+        name: "CPP",
+        icon: "/images/skills/cpp.png"
       },
       {
-        name: "Tailwind CSS",
-        icon: "/images/tailwind.svg"
+        name: "Github",
+        icon: "/images/skills/github.png"
       },
       {
-        name: "Tailwind CSS",
-        icon: "/images/tailwind.svg"
+        name: "Git",
+        icon: "/images/skills/git.png"
       },
       {
-        name: "Tailwind CSS",
-        icon: "/images/tailwind.svg"
+        name: "Material Ui",
+        icon: "/images/skills/materialui.png"
       },
+      {
+        name: "Firebase",
+        icon: "/images/skills/firebase.png"
+      },
+      
+      {
+        name: "Java",
+        icon: "/images/skills/java.png"
+      },
+      
+      {
+        name: "Python",
+        icon: "/images/skills/Python.png"
+      },
+      {
+        name: "VsCode",
+        icon: "/images/skills/vscode.png"
+      },
+      
+      
       
     // Add more skills as needed
   ];
