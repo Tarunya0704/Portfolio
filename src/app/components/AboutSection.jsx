@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
@@ -9,9 +9,10 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>SSOC'23</li>
-        <li>SIH(Smart India Hackathon'23)</li>
-        <li>SIH(Smart India Hacathon'24 )</li>
+      <li>SSOC &apos;23</li>
+      <li>SIH (Smart India Hackathon &apos;23)</li>
+      <li>SIH (Smart India Hackathon &apos;24)</li>
+      
         
         
 
@@ -56,13 +57,13 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} />
+        <Image src="/images/about-image.png" width={500} height={500} alt="img" />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
           I am a skilled MERN stack developer with two years of hands-on experience in building dynamic and scalable web applications. My expertise lies in developing full-stack solutions using MongoDB, Express.js, React,Next and Node.js. Alongside my passion for web development, I have a keen interest in exploring cloud computing and Web3 technologies, aiming to integrate the latest advancements in these fields to enhance my projects. My goal is to create innovative and impactful digital experiences while staying at the forefront of emerging tech trends.
 
-          Let's build something amazing together!
+          Let&apos; build something amazing together!
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
