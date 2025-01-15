@@ -1,11 +1,12 @@
-"use client"
+"use client";
 import React from 'react';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 const SkillCard = ({ name, icon }) => (
   <div className="group relative flex flex-col items-center p-4 bg-[#121212] backdrop-blur-sm rounded-lg transition-all duration-300 hover:bg-[#33353F] hover:scale-105 border border-[#33353F]">
     <div className="w-12 h-12 md:w-14 md:h-14 flex items-center justify-center bg-[#1e1e1e] rounded-lg shadow-lg mb-3">
-      <img 
+      <Image
         src={icon} 
         alt={`${name} icon`} 
         className="w-8 h-8 md:w-9 md:h-9 object-contain"
