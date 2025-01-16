@@ -25,12 +25,12 @@ const Navbar = () => {
 
   return (
     <nav className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
-      <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
+      <div className="flex container lg:py-2 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <div className="flex items-center">
         <img
         src="/images/selflogo.png"
         alt="logo"
-        className="w-28 h-28 md:w-64 md:h-64 lg:w-32 lg:h-32 object-contain mr-2 py-2 transition-all duration-300 ease-in-out hover:scale-105"
+        className="w-16 h-16 md:w-20 md:h-20 lg:w-20 lg:h-20 object-contain mr-2 py-1 transition-all duration-300 ease-in-out hover:scale-105"
       />
         </div>
         
